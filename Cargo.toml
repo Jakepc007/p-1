@@ -6,11 +6,11 @@ version = "0.1.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = "0.8.1"
+bevy = "*"
 # bevy_prototype_lyon = "*"
 # itertools = "*"
 # iyes_loopless = "*"
-# rand = "*"
+ rand = "*"
 
 [profile.dev.package."*"]
 opt-level = 3
