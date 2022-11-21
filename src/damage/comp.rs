@@ -8,6 +8,7 @@ pub enum DamageType {
 
 pub enum DamageSource {
     Orb { entity: Entity },
+    Effect { entity: Entity, effect: Effect },
 }
 
 impl DamageSource {

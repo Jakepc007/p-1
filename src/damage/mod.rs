@@ -1,4 +1,4 @@
 pub mod comp;
 mod event;
-mod plugin;
+pub mod plugin;
 mod sys;
